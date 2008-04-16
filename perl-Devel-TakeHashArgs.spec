@@ -1,6 +1,6 @@
 
 %define realname   Devel-TakeHashArgs
-%define version    0.004
+%define version    0.005
 %define release    %mkrel 1
 
 Name:       perl-%{realname}
