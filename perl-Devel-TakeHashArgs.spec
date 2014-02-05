@@ -1,15 +1,15 @@
 %define upstream_name    Devel-TakeHashArgs
-%define upstream_version 0.005
+%define upstream_version 0.006
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	6
+Release:	1
 
 Summary:	Make a hash out of args when they are passed as key/value pairs
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Devel/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Devel/Devel-TakeHashArgs-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Exporter)
@@ -68,5 +68,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Apr 12 2008 Olivier Thauvin <nanardon@mandriva.org> 0.004-1mdv2009.0
 + Revision: 192623
 - import perl-Devel-TakeHashArgs
+
 
 
