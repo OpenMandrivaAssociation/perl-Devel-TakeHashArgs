@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Make a hash out of args when they are passed as key/value pairs
 License:	GPL+ or Artistic
